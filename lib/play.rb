@@ -38,7 +38,7 @@ end
 turn_number = 0 
 
 def play(board)
-  ehilr turn(board)
+  while turn_number < 9 turn(board)
 end
 
 # Define your play method below
