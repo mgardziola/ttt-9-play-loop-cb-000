@@ -35,10 +35,10 @@ def turn(board)
   end
 end
 
-play = 0 
+turn_number = 0 
 
 def play(board)
-  loop times turn(board)
+  ehilr turn(board)
 end
 
 # Define your play method below
